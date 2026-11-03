@@ -3,7 +3,7 @@
     "extends": [
         "local>ni/python-renovate-config:default",
         "local>ni/python-renovate-config//presets/enableVulnerabilityAlerts",
-        "local>ni/python-renovate-config//presets/pinGitHubActionDigestsToSemver",
+        "local>ni/python-renovate-config//presets/pinGitHubActionDigestsToSemver#f4c2077c84a77f7a79bbad91acb891923025886b",
         // Run lock file maintenance monthly in order to upgrade indirect
         // dependencies that are not covered by the weekly update, such as
         // `certifi` or `typing_extensions`.
